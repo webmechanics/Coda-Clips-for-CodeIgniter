@@ -28,31 +28,31 @@ Contents:
 
 ### Load model (load model [tab])
 
-$this->load->model('*');
+	$this->load->model('*');
 
 ### Load view (load view [tab])
 
-$this->load->view('*', $data, TRUE);
+	$this->load->view('*', $data, TRUE);
 
 ### Load helper (load helper [tab])
 
-$this->load->helper('*');
+	$this->load->helper('*');
 
 ### Load library (load library [tab])
 
-$this->load->library('*');
+	$this->load->library('*');
 
 ### Insert SESSION variable (ci_session [tab])
 
-$this->session->userdata('*')
+	$this->session->userdata('*')
 
 ### Insert URI segment variable (ci_uri [tab])
 
-$this->uri->segment(*)
+	$this->uri->segment(*)
 
 ### Insert POST variable (ci_post [tab])
 
-$this->input->post('*')
+	$this->input->post('*')
 
 ### Create model skeleton (make model [tab])
 
@@ -87,18 +87,18 @@ $this->input->post('*')
 
 ### PHP construction placeholder (php [tab])
 
-<?php * ?>
+	<?php * ?>
 
 ### PHP print placeholder (php= [tab])
 
-<?= * ?>
+	<?= * ?>
 
 ### Enable CI profiles (ci_debug [tab])
 
-$this->output->enable_profiler(TRUE);
+	$this->output->enable_profiler(TRUE);
 
 ### FirePHP debug call (fire[tab])
 
-// FirePHP Debug Start
+	// FirePHP Debug Start
 
-$this->firephp->fb();
+	$this->firephp->fb();
