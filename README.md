@@ -56,6 +56,10 @@ Contents:
 
 	$this->input->post('*')
 
+### Insert GET variable (ci_get [tab])
+
+	$this->input->get('*')
+
 ### Create model skeleton (make model [tab])
 
 	<?php
