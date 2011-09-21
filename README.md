@@ -2,29 +2,31 @@
 
 Contents:
 
-## Create components
+### Create components
 
 * Create controller
 * Create model
 
-## Load components
+### Load components
 
 * Load model
 * Load view
 * Load helper
 * Load library
 
-## Variables
+### Variables
 
 * POST variable
 * SESSION variable
 * URI segment
 
-## Misc
+### Misc
 
 * PHP placeholder
 * Enable CI profiler
 * PHP print placeholder
+
+
 
 ### Load model (load model [tab])
 
@@ -65,7 +67,6 @@ Contents:
 		}
 
 		*
-
 	}
 
 ### Create controller skeleton (make controller [tab])
