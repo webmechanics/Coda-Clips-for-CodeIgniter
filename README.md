@@ -56,34 +56,34 @@ $this->input->post('*')
 
 ### Create model skeleton (make model [tab])
 
-<?php
+	<?php
 
-class My_model extends CI_Model {
+	class My_model extends CI_Model {
 
-	function __construct(){
-		parent::__construct();
+		function __construct(){
+			parent::__construct();
+		}
+
+		*
+
 	}
-
-	*
-
-}
 
 ### Create controller skeleton (make controller [tab])
 
-<?php
+	<?php
 
-class My_controller extends CI_Controller {
+	class My_controller extends CI_Controller {
 
-	function __construct() {
+		function __construct() {
 	
-		parent::__construct();
+			parent::__construct();
+		}
+	
+		function index() {
+	
+			*
+		}
 	}
-	
-	function index() {
-	
-		*
-	}
-}
 
 ### PHP construction placeholder (php [tab])
 
