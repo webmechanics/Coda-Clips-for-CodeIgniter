@@ -98,7 +98,7 @@ Contents:
 
 	$this->output->enable_profiler(TRUE);
 
-### FirePHP debug call (fire[tab])
+### FirePHP debug call (fire [tab])
 
 	// FirePHP Debug Start
 
