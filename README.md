@@ -26,8 +26,6 @@ Contents:
 * Enable CI profiler
 * PHP print placeholder
 
-
-
 ### Load model (load model [tab])
 
 	$this->load->model('*');
@@ -98,7 +96,7 @@ Contents:
 
 	<?= * ?>
 
-### Enable CI profiles (ci_debug [tab])
+### Enable CI profiler (ci_debug [tab])
 
 	$this->output->enable_profiler(TRUE);
 
