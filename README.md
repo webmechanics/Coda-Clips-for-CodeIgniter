@@ -13,12 +13,14 @@ Contents:
 * Load view
 * Load helper
 * Load library
+* Load language file
 
 ### Variables
 
 * POST variable
 * SESSION variable
 * URI segment
+* Language string
 
 ### Misc
 
@@ -41,6 +43,10 @@ Contents:
 ### Load library (load library [tab])
 
 	$this->load->library('*');
+	
+### Load language file (load lang [tab])
+
+	$this->load->language('*');
 
 ### Insert SESSION variable (ci_session [tab])
 
@@ -57,6 +63,10 @@ Contents:
 ### Insert GET variable (ci_get [tab])
 
 	$this->input->get('*')
+	
+### Insert language string (lang [tab])
+
+	<?= lang('*'); ?>
 
 ### Create model skeleton (make model [tab])
 
